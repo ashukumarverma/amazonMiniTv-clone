@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #1a2224;
+    height: 72px;
+}
+
+.logo-mini-tv>img {
+    height: 50%;
+    min-width: 157px;
+}
+
+.active-menu{
+    top: -500px;
+}
