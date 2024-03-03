@@ -3,11 +3,62 @@
     height: 72px;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+}
+
 .logo-mini-tv>img {
     height: 50%;
     min-width: 157px;
 }
 
-.active-menu{
+.active-menu {
     top: -500px;
+}
+
+.crousel {
+    height: 40vh;
+    background-color: #1a2224;
+}
+
+.shows {
+    padding-top: 12px;
+    background-color: #1a2224;
+    height: auto;
+}
+
+
+.title {
+    color: white;
+    font-weight: 400;
+    padding-left: 60px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 1.35;
+}
+
+.show-section {
+    /* border: 1px dotted white; */
+    display: flex;
+    gap: 15px;
+    overflow: scroll;
+    height: 18vh;
+    background-color: #1a2224;
+    padding-left: 3%;
+    align-items: center;
+}
+
+.show-section::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+}
+
+.card {
+    height: 16vh;
+    aspect-ratio: 1.7;
+    background-color: #c7d3d62a;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
 }
