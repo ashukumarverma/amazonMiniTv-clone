@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
 }
 
 .active-menu {
-    top: -500px;
+    top: 4rem;
 }
 
 .shows {
@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
     display: flex;
     gap: 15px;
     overflow: scroll;
-    height: 18vh;
+    height: 19vh;
     background-color: #1a2224;
     padding-left: 3%;
     align-items: center;
@@ -67,7 +67,6 @@ body::-webkit-scrollbar {
     width: 100vw;
     background-color: #c7d3d62a;
     aspect-ratio: 5;
-    
 }
 
 .card {
@@ -77,4 +76,15 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+.card>img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.card:hover{
+    transform: scale(115%);
+    transition:ease-in .2s;
+    border-radius: 10px;
 }

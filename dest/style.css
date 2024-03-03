@@ -39,7 +39,7 @@ html,
 :host {
   line-height: 1.5;
   /* 1 */
-  /* -webkit-text-size-adjust: 100%; */
+  -webkit-text-size-adjust: 100%;
   /* 2 */
   -moz-tab-size: 4;
   /* 3 */
@@ -550,6 +550,14 @@ video {
 
 .top-16 {
   top: 4rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.-top-96 {
+  top: -24rem;
 }
 
 .m-6 {
