@@ -17,11 +17,6 @@ body::-webkit-scrollbar {
     top: -500px;
 }
 
-.crousel {
-    height: 40vh;
-    background-color: #1a2224;
-}
-
 .shows {
     padding-top: 12px;
     background-color: #1a2224;
@@ -53,12 +48,33 @@ body::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;
 }
+.crousel{
+    background-color: #c7d3d633;
+    display: flex;
+    overflow:scroll;
+    min-width: 100vw;
+    width: 100vw;
+    aspect-ratio: 5;
+    max-height: 40vh;
+}
+.crousel::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;
+}
+.banner{
+    margin-right:0.1% ;
+    min-width: 100vw;
+    width: 100vw;
+    background-color: #c7d3d62a;
+    aspect-ratio: 5;
+    
+}
 
 .card {
     height: 16vh;
     aspect-ratio: 1.7;
     background-color: #c7d3d62a;
-    border-radius: 2px;
+    border-radius: 5px;
     margin: 0;
     padding: 0;
 }
