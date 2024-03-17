@@ -87,4 +87,6 @@ body::-webkit-scrollbar {
     transform: scale(115%);
     transition:ease-in .2s;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
